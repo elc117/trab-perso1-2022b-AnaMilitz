@@ -1,0 +1,26 @@
+Nome: Vex
+Estratégia geral: Majoritariamente defesiva com períodos agressivos (em inimigos de baixa vida). Inspirada no estilo de batalha do personagem Vex do jogo League of Legends.
+
+Eventos:
+See an enemy:
+   Se a vida dele estiver menor que a minha ou a vida dele estiver muito baixa: Ir pra cima e atirar bastante (dar muito dano).
+Do contrário:
+   Atirar de longe, com balas menos potentes.
+
+Hit a wall:
+  Escaneia os inimigos mais próximos, vai bem rápido na direção de um ângulo em que não tenha inimigos e nem a parede.
+
+Comportamento padrão:
+Andar por aí, perto das paredes, scaneando potenciais robos com baixa vida e atirar nos que tiverem perto.
+
+Hit an enemy:
+Se a minha vida ta maior ou igual a dele:
+     Ir pra cima e atirar de novo, com mais dano.
+Se ele ta perto de mim e minha vida ta menor que a dele:
+     Se afastar e dar um tiro menor.
+Se ele tá longe de mim  e minha vida ta menor que a dele: 
+    Atirar de novo, sem se mover.      
+
+
+Hit by a bullet:
+	Escaneia pra ver onde está o inimigo, se afasta pra longe e da um tiro no robo escaneado.
