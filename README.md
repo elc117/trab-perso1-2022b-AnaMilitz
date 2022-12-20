@@ -10,5 +10,10 @@ As principais motivações são:
 - Utilizar Java em uma aplicação de contexto real.
 
 ### 2. Resultados do trabalho
-Descrever os resultados do trabalho
+Um robô baseado na personagem Vex, capaz de:
+-Manter ações constantes (loop do método run());
+-Escanear outros robos;
+-Agir quando atingido por uma bala;
+-Agir quando atinge uma parede;
+-Agir quando atinge outro robô;
 
