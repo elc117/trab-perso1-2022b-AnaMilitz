@@ -51,3 +51,20 @@ O código possui os seguintes métodos:
 **onHitRobot():** Este é o método onde foram feitas mais alterações e onde o código, que havia sido comentado, foi descomentado. Ele verifica a energia da newVex em relação à energia do robô atingido e toma ações que se parecem com as da personagem Vex de acordo com a comparação. Ex: Se a energia da NewVex for maior ou igual a do robô atingido e se a direção em graus dele for menor que 10, chama o método goToEnemy() (que vai pra cima do inimigo) e atira 3 balas. 
 
 No geral, o comportamento do robô ainda visa se assemelhar com o comportamento da personagem Vex do League of Legends, atacando e indo na direção inimiga quando eles estão com pouca vida e recuando e atirando de longe quando ela está com pouca vida (ou pelo menos com a vida menor que a deles).
+
+### Referências:
+https://robowiki.net/wiki/Robocode
+
+https://robowiki.net/wiki/Robocode/My_First_Robot
+
+https://robowiki.net/wiki/Melee_Strategy 
+
+https://stackoverflow.com/questions/9727485/need-help-to-make-a-good-robocode-robot
+
+https://robocode.sourceforge.io/docs/robocode/robocode/AdvancedRobot.html
+
+http://mark.random-article.com/weber/java/robocode/lesson3.html
+
+https://github.com/mgalushka/robocode-robots/tree/master/src/main/java/sample (utilizado para análise dos códigos dos robos sample, que são fornecidos pelo Robocode)
+
+https://sic2.me/resources/robocode.pdf (deu a ideia de projetar uma estratégia pro robô antes de já começar criando ele sem propósito definido).
