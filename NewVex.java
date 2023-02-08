@@ -70,9 +70,9 @@ public class newVex extends Robot
 	
 	public void onHitRobot(HitRobotEvent e)
 	{
-	    double myEnergy = getEnergy();
-	 	  double enemyEnergy = e.getEnergy();
-      double enemyBearing = e.getBearing();
+	    	double myEnergy = getEnergy();
+	 	double enemyEnergy = e.getEnergy();
+      		double enemyBearing = e.getBearing();
 	
 		if (myEnergy >= enemyEnergy && enemyBearing <10)
 		{
