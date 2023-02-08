@@ -67,4 +67,4 @@ http://mark.random-article.com/weber/java/robocode/lesson3.html
 
 https://github.com/mgalushka/robocode-robots/tree/master/src/main/java/sample (utilizado para análise dos códigos dos robos sample, que são fornecidos pelo Robocode)
 
-https://sic2.me/resources/robocode.pdf (deu a ideia de projetar uma estratégia pro robô antes de já começar criando ele sem propósito definido).
+https://sic2.me/resources/robocode.pdf (deu a ideia de projetar uma estratégia pro robô - agressiva, defensiva, neutra - antes de já começar criando ele sem propósito definido).
