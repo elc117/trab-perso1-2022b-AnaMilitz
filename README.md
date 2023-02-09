@@ -21,7 +21,7 @@ Um robô baseado na personagem Vex, capaz de:
 
 **Herança:** Não consegui criar novas classes para serem utilizadas com a principal, pois o software do Robocode não permite a criação de múltiplos arquivos, aparentemente. E criando uma classe que extendia a outra dentro de um único arquivo também não funcionou, independemente de eu ter deixado as classes em público ou em privado.
 
-**Encapsulamento:** Utilizei encapsulamento em alguns métodos criados: moveInCircle(), goToEnemy, evadeAndAttack(HitByBulletEvent e), evade(HitWallEvent e). Os demais métodos como onHitWall(), onHitByBullet(), etc., não puderam ser encapsulados porque a superclasse "Robot", que é disponibilizada pelo software Robocode, já define o acesso destes métodos como público por padrão.
+**Encapsulamento:** Utilizei encapsulamento em alguns métodos criados: moveInCircle(), goToEnemy, redirectAndAttack(HitByBulletEvent e), redirect(HitWallEvent e). Os demais métodos como onHitWall(), onHitByBullet(), etc., não puderam ser encapsulados porque a superclasse "Robot", que é disponibilizada pelo software Robocode, já define o acesso destes métodos como público por padrão.
 
 **Polimorfismo:** Tecnicamente a sobrescrita foi utilizda quando sobrescrevi os métodos disponibilizados pela superclasse "Robot", que por padrão não fazem nada e foram feitos para serem sobrescritos, mas nos demais métodos deste código não houve a necessidade de sobrescrita, pois nenhuma outra classe os utilizou de maneira diferente.
 
